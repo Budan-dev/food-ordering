@@ -26,7 +26,7 @@ export default function AuthContainer() {
   };
 
   return (
-    <div className="w-full max-w-md bg-white p-6 rounded-lg shadow">
+    <div className="w-[470px] h-[607px]">
       {mode === "SignIn" ? (
         <>
           <SignIn />
@@ -34,7 +34,7 @@ export default function AuthContainer() {
             Don’t have an account?{" "}
             <button
               onClick={() => updateMode("SignUp")}
-              className="text-blue-600 underline"
+              className="text-blue-600 "
             >
               Create account
             </button>
@@ -47,7 +47,7 @@ export default function AuthContainer() {
             Already have an account?{" "}
             <button
               onClick={() => updateMode("SignIn")}
-              className="text-blue-600 underline"
+              className="text-blue-600 "
             >
               Sign in
             </button>
