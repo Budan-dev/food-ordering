@@ -38,14 +38,14 @@ export default function SignUp() {
           <div className="relative">
             <span className="absolute left-3 inset-y-0 flex items-center">
               <img
-                src="/mail.svg"
-                alt="mail icon"
+                src="/phone.svg"
+                alt="phone icon"
                 className="w-5 h-5 text-gray-400"
               />
             </span>
             <input
-              type="email"
-              placeholder="Email"
+              type="tel"
+              placeholder="Phone Number"
               className="border border-[#BDBDBD] mb-2 w-[350px] sm:w-[450px] h-[54px] rounded-[8px] pl-10 sm:pl-12 pr-3"
             />
           </div>
@@ -84,14 +84,11 @@ export default function SignUp() {
                     <path d="M12 9a3 3 0 100 6 3 3 0 000-6z" />
                   </svg>
                 ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path d="M2.1 1.7L1 2.8l3.1 3.1C2.5 7.3 1 9.2 1 9.2s4 7 11 7c2.1 0 4-.4 5.8-1.2l3.2 3.2 1.1-1.1L2.1 1.7zM7.7 9.3l2.6 2.6a3 3 0 004.4 4.4l2.6 2.6C15.6 19.7 13.9 20 12 20c-7 0-11-6-11-7 1.2-1.7 3.3-3.6 6.7-5.1l-.9-.9z" />
-                  </svg>
+                  <img
+                    src="/close-eye.svg"
+                    alt="mail icon"
+                    className="w-5 h-5 text-gray-400"
+                  />
                 )}
               </button>
             </span>
@@ -133,14 +130,11 @@ export default function SignUp() {
                     <path d="M12 9a3 3 0 100 6 3 3 0 000-6z" />
                   </svg>
                 ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path d="M2.1 1.7L1 2.8l3.1 3.1C2.5 7.3 1 9.2 1 9.2s4 7 11 7c2.1 0 4-.4 5.8-1.2l3.2 3.2 1.1-1.1L2.1 1.7zM7.7 9.3l2.6 2.6a3 3 0 004.4 4.4l2.6 2.6C15.6 19.7 13.9 20 12 20c-7 0-11-6-11-7 1.2-1.7 3.3-3.6 6.7-5.1l-.9-.9z" />
-                  </svg>
+                  <img
+                    src="/close-eye.svg"
+                    alt="mail icon"
+                    className="w-5 h-5 text-gray-400"
+                  />
                 )}
               </button>
             </span>

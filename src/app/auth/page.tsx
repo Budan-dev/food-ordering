@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 
 export default function AuthPage() {
   return (
-    <div className="flex flex-col   w-full min-h-screen">
+    <div className="flex flex-col w-full h-auto">
       <SideImageLayout
         imageSrc="/landing-Image.svg"
         imageAlt="Landing Image"
