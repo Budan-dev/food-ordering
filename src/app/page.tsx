@@ -46,7 +46,7 @@ export default function Home() {
             className="object-cover"
           />
         </div>
-        <div className="w-full bg-amber-100 flex items-center justify-center">
+        <div className="w-full  flex items-center justify-center">
           <Main />
         </div>
       </div>
